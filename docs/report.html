@@ -4,11 +4,11 @@
 <p><a href="index.html">← Hub</a></p>
 <h1>Robust cross-lingual fact checking — lightweight baseline lab</h1>
 <h2>Data</h2>
-<p>`synthetic_claims.csv` is a **tiny multilingual** illustration (EN/FA/TR) with 4 ordinal-ish labels (0–3). It is **not** a replacement for X-Fact / SciFact; it exists to show **evaluation + error analysis** mechanics on text.</p>
+<p>`synthetic_claims.csv` is a <strong>tiny multilingual</strong> illustration (EN/FA/TR) with 4 ordinal-ish labels (0–3). It is <strong>not</strong> a replacement for X-Fact / SciFact; it exists to show <strong>evaluation + error analysis</strong> mechanics on text.</p>
 <h2>Quality</h2>
 <p>`analytics/quality/validate_claims.py` enforces schema + label range.</p>
 <h2>Modeling</h2>
-<p>`modeling/tfidf_baseline.py` trains a **character n-gram TF–IDF + multinomial logistic** model (strong for noisy multilingual snippets without tokenizers), exports:</p>
+<p>`modeling/tfidf_baseline.py` trains a <strong>character n-gram TF–IDF + multinomial logistic</strong> model (strong for noisy multilingual snippets without tokenizers), exports:</p>
 <ul><li>`metrics.json`, `classification_report.txt`  </li><li>`confusion_matrix.png`  </li><li>`errors_by_lang.csv` + `error_sample.csv`</li></ul>
 <p>This complements your heavy XLM-R notebooks in the same repository.</p><h2>Artifacts</h2><ul><li><a href="../modeling/artifacts/metrics.json">metrics.json</a></li><li><a href="../modeling/artifacts/classification_report.txt">classification_report.txt</a></li><li><a href="../modeling/artifacts/confusion_matrix.png">confusion_matrix.png</a></li><li><a href="../modeling/artifacts/errors_by_lang.csv">errors_by_lang.csv</a></li><li><a href="../modeling/artifacts/error_sample.csv">error_sample.csv</a></li></ul>
 </body></html>
