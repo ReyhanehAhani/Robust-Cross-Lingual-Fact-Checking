@@ -1,0 +1,11 @@
+<View>
+  <Header value="Claim verification"/>
+  <Text name="txt" value="$claim"/>
+  <Choices name="label" toName="txt" choice="single-radio" showInLine="true">
+    <Choice value="true"/>
+    <Choice value="mostly_true"/>
+    <Choice value="mostly_false"/>
+    <Choice value="false"/>
+    <Choice value="unverified"/>
+  </Choices>
+</View>
