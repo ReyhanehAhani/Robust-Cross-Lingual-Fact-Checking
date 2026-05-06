@@ -2,7 +2,7 @@
 
 ## Portfolio — Pillar 3 (Label Studio)
 
-Human-in-the-loop adjudication assets live under `label_studio/` (XML interface + starter JSON tasks). Spin up Label Studio, paste the XML config, import your claim JSON, export labels back into the training notebooks.
+Human-in-the-loop adjudication assets live under `label_studio/` (XML interface + starter JSON tasks). **Completed demo export:** `label_studio/published/demo_annotations.json` (ready to import / attach as proof of schema).
 
 ---
 This project investigates **multilingual fact-checking** using XLM-RoBERTa, with a focus on robustness to adversarial noise, parameter-efficient fine-tuning using **LoRA**, and evidence integration using **retrieval and summarization** pipelines. We address both **claim-only** settings and **evidence-rich** tasks across multiple languages.

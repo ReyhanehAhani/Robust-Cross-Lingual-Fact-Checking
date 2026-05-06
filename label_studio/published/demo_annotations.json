@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "claim": "The Earth is flat.",
+      "lang": "en"
+    },
+    "annotations": [
+      {
+        "id": 90001,
+        "completed_by": 1,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "txt",
+            "type": "choices",
+            "value": {
+              "choices": ["false"]
+            }
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": true
+      }
+    ],
+    "predictions": []
+  },
+  {
+    "id": 2,
+    "data": {
+      "claim": "اگر دما بالا رود یخ‌ها ذوب می‌شوند.",
+      "lang": "fa"
+    },
+    "annotations": [
+      {
+        "id": 90002,
+        "completed_by": 1,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "txt",
+            "type": "choices",
+            "value": {
+              "choices": ["true"]
+            }
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": true
+      }
+    ],
+    "predictions": []
+  },
+  {
+    "id": 3,
+    "data": {
+      "claim": "Drinking hot lemon water daily guarantees weight loss.",
+      "lang": "en"
+    },
+    "annotations": [
+      {
+        "id": 90003,
+        "completed_by": 1,
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "txt",
+            "type": "choices",
+            "value": {
+              "choices": ["mostly_false"]
+            }
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": true
+      }
+    ],
+    "predictions": []
+  }
+]
