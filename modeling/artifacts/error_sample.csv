@@ -1,0 +1,10 @@
+text,lang,label,y_true,y_pred
+Güneş dünyanın etrafında döner ve ay sabittir.,tr,3,3,0
+Tüm aşılar kesinlikle zararlıdır ve hiç kimse kullanmamalıdır.,tr,3,3,0
+همه ژورنال‌های علمی تقلبی هستند بدون استثنا.,fa,3,3,0
+Bu iddia kısmen doğru fakat yanıltıcı bağlamda sunulmuş.,tr,2,2,0
+The treatment works for some patients but not all.,en,1,1,0
+Tüm kanser türleri aynı ilaçla tedavi edilir.,tr,3,3,0
+همه افراد مبتلا به سرطان با یک دارو درمان می‌شوند.,fa,3,3,0
+بعضی مطالعات نتیجه مثبت و بعضی منفی گزارش کرده‌اند.,fa,1,1,0
+Some studies misuse statistics but many are sound.,en,2,2,0

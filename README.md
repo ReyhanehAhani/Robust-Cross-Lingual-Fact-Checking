@@ -4,6 +4,18 @@
 
 Human-in-the-loop adjudication assets live under `label_studio/` (XML interface + starter JSON tasks). **Completed demo export:** `label_studio/published/demo_annotations.json` (ready to import / attach as proof of schema).
 
+## TF–IDF baseline + evaluation + error-by-language
+
+```bash
+pip install -r requirements-analytics-stack.txt
+python analytics/quality/validate_claims.py
+python modeling/tfidf_baseline.py
+python analytics/reports/build_report.py
+python tools/build_docs.py
+```
+
+Uses `data/synthetic_claims.csv` (EN/FA/TR illustration). Workflow: `.github/workflows/data-stack.yml`.
+
 ---
 This project investigates **multilingual fact-checking** using XLM-RoBERTa, with a focus on robustness to adversarial noise, parameter-efficient fine-tuning using **LoRA**, and evidence integration using **retrieval and summarization** pipelines. We address both **claim-only** settings and **evidence-rich** tasks across multiple languages.
 
